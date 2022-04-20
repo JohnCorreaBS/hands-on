@@ -1,0 +1,41 @@
+{
+    "flex-layout.row#categoria": {
+        "children": [
+            "flex-layout.col#texto-categoria",
+            "flex-layout.col#producto-1",
+            "flex-layout.col#producto-1",
+            "flex-layout.col#producto-1",
+            "flex-layout.col#producto-1",
+            "flex-layout.col#producto-1",
+            "flex-layout.col#producto-1",
+            "flex-layout.col#producto-1",
+            "flex-layout.col#producto-1"
+        ]
+    },
+    "flex-layout.col#texto-categoria": {
+        "children": [
+            "rich-text#texto-categoria"
+        ]
+    },
+    "rich-text#texto-categoria": {
+        "props": {
+            "text": "¿Qué estas buscando? \n [Ver todo](/all-products)"
+        }
+    },
+    "flex-layout.col#producto-1": {
+        "children": [
+            "image#producto-1",
+            "rich-text#nombre-producto-1"
+        ]
+    },
+    "image#producto-1": {
+        "props": {
+            "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
+        }
+    },
+    "rich-text#nombre-producto-1": {
+        "props": {
+            "text": "Cuidado Capilar"
+        }
+    }
+}
