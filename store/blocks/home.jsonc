@@ -1,5 +1,8 @@
 {
     "store.home": {
-        "blocks": []
+        "blocks": [
+            "responsive-layout.desktop#pavo",
+            "responsive-layout.mobile#pavo"
+        ]
     }
 }
