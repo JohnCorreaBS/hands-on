@@ -1,5 +1,8 @@
 {
     "store.home": {
-        "blocks": []
+        "blocks": [
+            "rich-text#titulo-valores",
+            "rich-text#valores-blacksip"
+        ]
     }
 }
