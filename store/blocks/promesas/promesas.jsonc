@@ -1,21 +1,6 @@
 {
     "flex-layout.row#promesas": {
-        "children": [
-            "slider-layout#promise"
-        ]
-    },
-    "slider-layout#promise": {
-        "props": {
-            "centerMode": "to-the-left",
-            "showNavigationArrows": "mobileOnly",
-            "showPaginationDots": "never",
-            "itemsPerPage": {
-                "desktop": 5,
-                "tablet": 3,
-                "phone": 1
-            }
-        },
-        "children": [
+        "children": [            
             "flex-layout.col#promesa-1",
             "flex-layout.col#promesa-1",
             "flex-layout.col#promesa-1",
