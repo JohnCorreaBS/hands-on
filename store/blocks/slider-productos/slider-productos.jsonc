@@ -1,0 +1,22 @@
+{
+    "list-context.product-list#top-sale": {
+        "blocks": ["product-summary.shelf"],
+        "children": ["slider-layout#vitrine"],
+        "props": {
+            "category": "3/15/22",
+            "maxItems": 10,
+            "hideUnavailableItems": true
+        }
+    },
+
+    "slider-layout#vitrine": {
+        "props": {
+            "itemsPerPage": {
+                "(min-width: 1440px)": 6
+            },
+            "centerMode": {
+                "phone": "to-the-left"
+            }
+        }
+    }
+}
