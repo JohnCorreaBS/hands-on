@@ -1,5 +1,6 @@
 {
     "rich-text#titulo-valores": {
+        "title": "Valores BlackSip",
         "props": {
             "text": "# Nuestros valores"
         }
