@@ -59,11 +59,192 @@
             "flex-layout.row#iconos-2"
         ]
     },
-    "flex-layout.row#iconos-1": {},
-    "flex-layout.row#iconos-2": {},
-    "responsive-layout.mobile#pavo": {
+    "flex-layout.row#iconos-1": {
         "children": [
-            "flex-layout.col#imagen-pavo"
+            "flex-layout.col#seccion-iconos-first"
+        ]
+    },
+    "flex-layout.col#seccion-iconos-first": {
+        "children": [
+            "flex-layout.row#seccion-iconos-first"
+        ]
+    },
+    "flex-layout.row#seccion-iconos-first": {
+        "children": [
+            "flex-layout.col#tiempo",
+            "flex-layout.col#ingredientes",
+            "flex-layout.col#nivel"
+        ]
+    },
+    "flex-layout.col#tiempo": {
+        "children": [
+            "flex-layout.row#tiempo"
+        ]
+    },
+    "flex-layout.row#tiempo": {
+        "children": [
+            "image#tiempo",
+            "rich-text#tiempo"
+        ]
+    },
+    "image#tiempo": {
+        "props": {
+            "src": "https://i.imgur.com/RWj3DiZ.png"
+        }
+    },
+    "rich-text#tiempo": {
+        "props": {
+            "text": "60 minutos"
+        }
+    },
+    "flex-layout.col#ingredientes": {
+        "children": [
+            "flex-layout.row#ingredientes"
+        ]
+    },
+    "flex-layout.row#ingredientes": {
+        "children": [
+            "image#ingredientes",
+            "rich-text#ingredientes"
+        ]
+    },
+    "image#ingredientes": {
+        "props": {
+            "src": "https://i.imgur.com/RWj3DiZ.png"
+        }
+    },
+    "rich-text#ingredientes": {
+        "props": {
+            "text": "8 ingredientes"
+        }
+    },
+    "flex-layout.col#nivel": {
+        "children": [
+            "flex-layout.row#nivel"
+        ]
+    },
+    "flex-layout.row#nivel": {
+        "children": [
+            "image#nivel",
+            "rich-text#nivel"
+        ]
+    },
+    "image#nivel": {
+        "props": {
+            "src": "https://i.imgur.com/EvjGjXS.png"
+        }
+    },
+    "rich-text#nivel": {
+        "props": {
+            "text": "Nivel: Principiante"
+        }
+    },
+    "flex-layout.row#iconos-2": {
+        "children": [
+            "flex-layout.col#seccion-iconos-second"
+        ]
+    },
+    "flex-layout.col#seccion-iconos-second": {
+        "children": [
+            "flex-layout.row#seccion-iconos-second"
+        ]
+    },
+    "flex-layout.row#seccion-iconos-second": {
+        "children": [
+            "flex-layout.col#comensales",
+            "flex-layout.col#ofertas",
+            "flex-layout.col#ubicacion"
+        ]
+    },
+    "flex-layout.col#comensales": {
+        "children": [
+            "flex-layout.row#comensales"
+        ]
+    },
+    "flex-layout.row#comensales": {
+        "children": [
+            "image#comensales",
+            "rich-text#comensales"
+        ]
+    },
+    "image#comensales": {
+        "props": {
+            "src": "https://i.imgur.com/9V8uyXo.png"
+        }
+    },
+    "rich-text#comensales": {
+        "props": {
+            "text": "4 a 6 comensales"
+        }
+    },
+    "flex-layout.col#ofertas": {
+        "children": [
+            "flex-layout.row#ofertas"
+        ]
+    },
+    "flex-layout.row#ofertas": {
+        "children": [
+            "image#ofertas",
+            "rich-text#ofertas"
+        ]
+    },
+    "image#ofertas": {
+        "props": {
+            "src": "https://i.imgur.com/xx4LO0k.png"
+        }
+    },
+    "rich-text#ofertas": {
+        "props": {
+            "text": "S/1200 - S/1480"
+        }
+    },
+    "flex-layout.col#ubicacion": {
+        "children": [
+            "flex-layout.row#ubicacion"
+        ]
+    },
+    "flex-layout.row#ubicacion": {
+        "children": [
+            "image#ubicacion",
+            "rich-text#ubicacion"
+        ]
+    },
+    "image#ubicacion": {
+        "props": {
+            "src": "https://i.imgur.com/IhKo5Rc.png"
+        }
+    },
+    "rich-text#ubicacion": {
+        "props": {
+            "text": "País: Perú"
+        }
+    },
+    "flex-layout.row#iconos-mobile": {
+        "children": [
+            "flex-layout.col#seccion-first-mobile",
+            "flex-layout.col#seccion-second-mobile"
+        ]
+    },
+    "flex-layout.col#seccion-first-mobile": {
+        "children": [
+            "flex-layout.row#tiempo"
+            // "flex-layout.row#nivel",
+            // "flex-layout.row#ofertas"
+        ]
+    },
+    "flex-layout.col#seccion-second-mobile": {
+        "children": [
+            "flex-layout.row#tiempo"
+            // "flex-layout.row#nivel",
+            // "flex-layout.row#ofertas"
+        ]
+    },
+    "responsive-layout.phone#pavo": {
+        "children": [
+            "image#pavo",
+            "flex-layout.row#titulo",
+            "flex-layout.row#descripcion",
+            "flex-layout.row#iconos-mobile"
         ]
     }
 }
