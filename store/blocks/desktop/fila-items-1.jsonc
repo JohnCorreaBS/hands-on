@@ -1,0 +1,109 @@
+{
+  "responsive-layout.desktop#pavo-dorado": {
+    "children": [
+      "flex-layout.row#info-principal-desktop",
+      "flex-layout.row#info-secundario-desktop"
+    ]
+  },
+  "rich-text#title-product": {
+    "title": "#Título Pavo Dorado",
+    "props": {
+      "text": "Pavo dorado relleno al horno"
+    }
+  },
+  "rich-text#description-pavo-dorado": {
+    "title": "Descripción Pavo Dorado",
+    "props": {
+      "text": "Delicioso y sencillo de preparar, pavo al horno relleno de verduras con \n lorem ipsum para celebrar la navidad con toda la familia."
+    }
+  },
+  "flex-layout.row#items-pavo-dorado": {
+    "title": "Primera fila de items",
+    "children": [
+      "flex-layout.col#tiempo",
+      "flex-layout.col#item-info-2",
+      "flex-layout.col#item-info-3"
+    ]
+  },
+  "flex-layout.col#tiempo": {
+    "title": "Item Tiempo",
+    "children": [
+      "flex-layout.row#tiempo"
+    ]
+  },
+  "flex-layout.row#tiempo": {
+    "title": "Contenedor Tiempo",
+    "children": [
+      "image#tiempo",
+      "rich-text#tiempo"
+    ]
+  },
+  "image#tiempo": {
+    "title": "Imagen Item Tiempo",
+    "props": {
+      "src": "https://i.imgur.com/RWj3DiZ.png"
+    }
+  },
+  "rich-text#tiempo": {
+    "title": "Texto Tiempo",
+    "props": {
+      "text": "60 minutos"
+    }
+  },
+  "flex-layout.col#item-info-2": {
+    "title": "Columna de la info 2",
+    "children": [
+      "flex-layout.row#items-info-2"
+    ]
+  },
+  "flex-layout.row#items-info-2": {
+    "title": "Fila de la info 2",
+    "children": [
+      "image#item-info-2",
+      "rich-text#item-info-2"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "image#item-info-2": {
+    "title": "Imagen de la info 2",
+    "props": {
+      "src": "https://i.imgur.com/YU224Ni.png"
+    }
+  },
+  "rich-text#item-info-2": {
+    "title": "Texto de la info 2",
+    "props": {
+      "text": "8 ingredientes"
+    }
+  },
+  "flex-layout.col#item-info-3": {
+    "title": "Columna de la info 3",
+    "children": [
+      "flex-layout.row#items-info-3"
+    ]
+  },
+  "flex-layout.row#items-info-3": {
+    "title": "Fila de la info 3",
+    "children": [
+      "image#item-info-3",
+      "rich-text#item-info-3"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "image#item-info-3": {
+    "title": "Imagen de la info 3",
+    "props": {
+      "src": "https://i.imgur.com/EvjGjXS.png"
+    }
+  },
+  "rich-text#item-info-3": {
+    "title": "Texto de la info 3",
+    "props": {
+      "text": "Nivel: principiante"
+    }
+  }
+}

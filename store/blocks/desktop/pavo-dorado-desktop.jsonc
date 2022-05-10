@@ -1,0 +1,43 @@
+{
+    // Llamar en home
+  
+    "flex-layout.row#pavo-dorado": {
+      "title": "Contenedor Pavo Dorado",
+      "children": [
+        "flex-layout.col#pavo-dorado",
+        "flex-layout.col#contenido-pavo-dorado"
+      ]
+    },
+  
+    "flex-layout.col#pavo-dorado": {
+      "title": "Columna principal de la pagina",
+      "children": [
+        "responsive-layout.desktop#pavo-dorado",
+        "responsive-layout.mobile#pavo-dorado"
+      ]
+    },
+  
+    "responsive-layout.desktop#pavo-dorado": {
+      "children": [
+        "image#imagen-pavo-dorado"
+      ]
+    },
+  
+    "image#image-pavo-dorado": {
+      "title": "Imagen Pavo Dorado Desktop",
+      "props": {
+        "src": "https://i.imgur.com/ipQipBB.jpeg",
+        "blockCLass": "img-main"
+      }
+    },
+  
+    "flex-layout.col#contenido-pavo-dorado": {
+      "title": "Contenido Pavo Dorado",
+      "children": [
+        "rich-text#title-pavo-dorado",
+        "rich-text#description-pavo-dorado",
+        "responsive-layout.desktop#items-pavo-dorado",
+        "responsive-layout.mobile#items-pavo-dorado"
+      ]
+    }
+  }
