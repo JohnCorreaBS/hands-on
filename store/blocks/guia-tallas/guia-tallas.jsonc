@@ -1,0 +1,108 @@
+{
+    "drawer#principal": {
+        "title": "Menú desplegable",
+        "children": [
+            "drawer#hombre",
+            "drawer#mujer"
+        ],
+        "blocks": [
+            "drawer-header#guia-tallas",
+            "drawer-trigger"
+        ]
+    },
+    "drawer-trigger": {
+        "children": [
+            "rich-text#open-drawer"
+        ]
+    },
+    "drawer-header#guia-tallas": {
+        "children": [
+            "drawer-close-button",
+            "rich-text#titulo-guia-tallas"
+        ]
+    },
+    "rich-text#titulo-guia-tallas": {
+        "title": "Título guía de tallas",
+        "props": {
+            "text": "Guía de tallas"
+        }
+    },
+    "rich-text#open-drawer": {
+        "title": "Texto guía de tallas",
+        "props": {
+            "text": "Guía de tallas"
+        }
+    },
+    "drawer#hombre": {
+        "title": "Menú desplegable hombre",
+        "children": [
+            "image#guia-tallas"
+        ],
+        "blocks": [
+            "drawer-header#hombre",
+            "drawer-trigger#hombre"
+        ]
+    },
+    "drawer-header#hombre": {
+        "children": [
+            "drawer-close-button",
+            "rich-text#titulo-hombre"
+        ]
+    },
+    "rich-text#titulo-hombre": {
+        "title": "Título guía de tallas hombre",
+        "props": {
+            "text": "Guía de tallas hombre"
+        }
+    },
+    "drawer-trigger#hombre": {
+        "children": [
+            "rich-text#open-drawer-hombre"
+        ]
+    },
+    "rich-text#open-drawer-hombre": {
+        "title": "Texto guía de tallas hombre",
+        "props": {
+            "text": "Hombre"
+        }
+    },
+    "drawer#mujer": {
+        "title": "Menú desplegable mujer",
+        "children": [
+            "image#guia-tallas"
+        ],
+        "blocks": [
+            "drawer-header#mujer",
+            "drawer-trigger#mujer"
+        ]
+    },
+    "drawer-header#mujer": {
+        "children": [
+            "drawer-close-button",
+            "rich-text#titulo-mujer"
+        ]
+    },
+    "rich-text#titulo-mujer": {
+        "title": "Título guía de tallas mujer",
+        "props": {
+            "text": "Guía de tallas Mujer"
+        }
+    },
+    "drawer-trigger#mujer": {
+        "children": [
+            "rich-text#open-drawer-mujer"
+        ]
+    },
+    "rich-text#open-drawer-mujer": {
+        "title": "Texto guía de tallas mujer",
+        "props": {
+            "text": "Mujer"
+        }
+    },
+    "image#guia-tallas": {
+        "title": "Imagen guío de tallas",
+        "props": {
+            "src": "https://imgur.com/HLLiO8N"
+        }
+    }
+}
