@@ -1,0 +1,8 @@
+.submenu--content-subtitle-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+.styledLinkContent--accordion-title {
+  color: #000 !important;
+}

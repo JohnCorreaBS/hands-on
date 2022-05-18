@@ -1,0 +1,49 @@
+{
+    "flex-layout.row#drawer-departamento": {
+      "title": "Fila del drawer principal",
+      "children": [
+        "drawer#principal"
+      ]
+    },
+  
+    "drawer#principal": {
+      "title": "Drawer principal",
+      "children": [
+        "flex-layout.col#drawer-departamento"
+      ],
+      "props": {
+          "slideDirection": "vertical",
+          "isFullWidth": true
+      }
+    },
+  
+    "flex-layout.col#drawer-departamento": {
+      "title": "Columna departamento",
+      "children": [
+        "flex-layout.row#drawer-departamentos"
+      ]
+    },
+  
+    "flex-layout.row#drawer-departamentos": {
+      "title": "Fila de departamentos",
+      "children": [
+        "flex-layout.col#drawer-departamentos"
+      ]
+    },
+  
+    "flex-layout.col#drawer-departamentos": {
+      "title": "Columna de departamentos",
+      "children": [
+        "drawer#departamento-1",
+        "drawer#departamento-2",
+        "drawer#departamento-3",
+        "drawer#departamento-4",
+        "drawer#departamento-5",
+        "drawer#departamento-6",
+        "drawer#departamento-7"
+      ],
+      "props": {
+        "blockClass": "flexColDrawerDep"
+      }
+    }
+  }

@@ -1,0 +1,8 @@
+{
+    "responsive-layout.desktop#menu": {
+      "title": "Menú Desktop",
+      "children": [
+        "flex-layout.row#desktop-menu"
+      ]
+    }
+  }

@@ -1,0 +1,96 @@
+{
+    "flex-layout.row#categoria-acordeon": {
+      "title": "Fila de acordeon categorias",
+      "children": [
+        "vtex.menu@2.x:menu#acordeon-mobile"
+      ]
+  
+    },
+  
+    "vtex.menu@2.x:menu#acordeon-mobile": {
+      "title": "Menu acordeon mobile",
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "acordeonMobile"
+      },
+      "children": [
+        "menu-item#categoria-1"
+      ]
+    },
+  
+    "menu-item#categoria-1": {
+      "title": "Ítem acordeon mobile",
+      "props": {
+        "blockClass": "accordion-title",
+        "id": "menu-item-categoria-1",
+        "type": "custom",
+        "iconId": null,
+        "highlight": true,
+        "itemProps": {
+          "type": "internal",
+          // "href": "/quienes-somos",
+          "noFollow": true,
+          "tagTitle": "Categoría 1",
+          "text": "Categoría 1"
+        }
+      },
+      "blocks": ["vtex.menu@2.x:submenu.accordion#categoria-1"]
+    },
+  
+    "vtex.menu@2.x:submenu.accordion#categoria-1": {
+      "title": "Submenu acordeon mobile",
+      "props": {
+        "blockClass": "footer"
+      },
+      "children": ["vtex.menu@2.x:menu#acordeon-categoria"]
+    },
+  
+    "vtex.menu@2.x:menu#acordeon-categoria": {
+      "title": "ítems acordeon mobile",
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "categoryMenu",
+        "items": [
+          {
+            "id": "menu-item-about-us",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "external",
+              "href": "/",
+              "noFollow": false,
+              "tagTitle": "Subcategoria-1",
+              "text": "Subcategoria-1"
+            }
+          },
+          {
+            "id": "menu-item-about-us",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "external",
+              "href": "/",
+              "noFollow": false,
+              "tagTitle": "Subcategoria-2",
+              "text": "Subcategoria-2"
+            }
+          },
+          {
+            "id": "menu-item-about-us",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "external",
+              "href": "/",
+              "noFollow": false,
+              "tagTitle": "Subcategoria-3",
+              "text": "Subcategoria-3"
+            }
+          }
+        ]
+      }
+    }
+  }

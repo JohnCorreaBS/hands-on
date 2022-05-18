@@ -1,0 +1,169 @@
+{
+    "flex-layout.col#vista-secundaria": {
+      "title": "Columna principal acordeon y drawer",
+      "children": [
+        "flex-layout.row#title-departamento",
+        "flex-layout.row#categoria-acordeon",
+        "flex-layout.row#categoria-acordeon",
+        "flex-layout.row#categoria-acordeon"
+      ],
+      "props": {
+        "rowGap": 4
+      }
+    },
+  
+    "flex-layout.row#title-departamento": {
+      "title": "Fila del titulo y el boton cerrar",
+      "children": [
+        "drawer-close-button",
+        "rich-text#departamento-1"
+      ],
+      "props": {
+        "blockClass": "flexRowTitleDrawerDep"
+      }
+    },
+  
+    "flex-layout.col#vista-secundaria-departamento-2": {
+      "title": "Columna principal acordeon y drawer",
+      "children": [
+        "flex-layout.row#title-departamento-2",
+        "flex-layout.row#categoria-acordeon",
+        "flex-layout.row#categoria-acordeon",
+        "flex-layout.row#categoria-acordeon"
+      ],
+      "props": {
+        "rowGap": 4
+      }
+    },
+  
+    "flex-layout.row#title-departamento-2": {
+      "title": "Fila del titulo y el boton cerrar",
+      "children": [
+        "drawer-close-button",
+        "rich-text#departamento-2"
+      ],
+      "props": {
+        "blockClass": "flexRowTitleDrawerDep"
+      }
+    },
+  
+    "flex-layout.col#vista-secundaria-departamento-3": {
+      "title": "Columna principal acordeon y drawer",
+      "children": [
+        "flex-layout.row#title-departamento-3",
+        "flex-layout.row#categoria-acordeon",
+        "flex-layout.row#categoria-acordeon",
+        "flex-layout.row#categoria-acordeon"
+      ],
+      "props": {
+        "rowGap": 4
+      }
+    },
+  
+    "flex-layout.row#title-departamento-3": {
+      "title": "Fila del titulo y el boton cerrar",
+      "children": [
+        "drawer-close-button",
+        "rich-text#departamento-3"
+      ],
+      "props": {
+        "blockClass": "flexRowTitleDrawerDep"
+      }
+    },
+  
+    "flex-layout.col#vista-secundaria-departamento-4": {
+      "title": "Columna principal acordeon y drawer",
+      "children": [
+        "flex-layout.row#title-departamento-4",
+        "flex-layout.row#categoria-acordeon",
+        "flex-layout.row#categoria-acordeon",
+        "flex-layout.row#categoria-acordeon"
+      ],
+      "props": {
+        "rowGap": 4
+      }
+    },
+  
+    "flex-layout.row#title-departamento-4": {
+      "title": "Fila del titulo y el boton cerrar",
+      "children": [
+        "drawer-close-button",
+        "rich-text#departamento-4"
+      ],
+      "props": {
+        "blockClass": "flexRowTitleDrawerDep"
+      }
+    },
+  
+    "flex-layout.col#vista-secundaria-departamento-5": {
+      "title": "Columna principal acordeon y drawer",
+      "children": [
+        "flex-layout.row#title-departamento-5",
+        "flex-layout.row#categoria-acordeon",
+        "flex-layout.row#categoria-acordeon",
+        "flex-layout.row#categoria-acordeon"
+      ],
+      "props": {
+        "rowGap": 4
+      }
+    },
+  
+    "flex-layout.row#title-departamento-5": {
+      "title": "Fila del titulo y el boton cerrar",
+      "children": [
+        "drawer-close-button",
+        "rich-text#departamento-5"
+      ],
+      "props": {
+        "blockClass": "flexRowTitleDrawerDep"
+      }
+    },
+  
+    "flex-layout.col#vista-secundaria-departamento-6": {
+      "title": "Columna principal acordeon y drawer",
+      "children": [
+        "flex-layout.row#title-departamento-6",
+        "flex-layout.row#categoria-acordeon",
+        "flex-layout.row#categoria-acordeon",
+        "flex-layout.row#categoria-acordeon"
+      ],
+      "props": {
+        "rowGap": 4
+      }
+    },
+  
+    "flex-layout.row#title-departamento-6": {
+      "title": "Fila del titulo y el boton cerrar",
+      "children": [
+        "drawer-close-button",
+        "rich-text#departamento-6"
+      ],
+      "props": {
+        "blockClass": "flexRowTitleDrawerDep"
+      }
+    },
+  
+    "flex-layout.col#vista-secundaria-departamento-7": {
+      "title": "Columna principal acordeon y drawer",
+      "children": [
+        "flex-layout.row#title-departamento-7",
+        "flex-layout.row#categoria-acordeon",
+        "flex-layout.row#categoria-acordeon",
+        "flex-layout.row#categoria-acordeon"
+      ],
+      "props": {
+        "rowGap": 4
+      }
+    },
+  
+    "flex-layout.row#title-departamento-7": {
+      "title": "Fila del titulo y el boton cerrar",
+      "children": [
+        "drawer-close-button",
+        "rich-text#departamento-7"
+      ],
+      "props": {
+        "blockClass": "flexRowTitleDrawerDep"
+      }
+    }
+  }
