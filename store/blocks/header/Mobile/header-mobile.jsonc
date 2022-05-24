@@ -1,5 +1,6 @@
 {
     "flex-layout.row#header-mobile": {
+        "title": "Contenedor Header Mobile",
         "children": [
             "logo"
         ],

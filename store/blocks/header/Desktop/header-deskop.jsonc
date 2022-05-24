@@ -1,5 +1,6 @@
 {
     "flex-layout.row#header-desktop": {
+        "title": "Contenedor Header Desktop",
         "children": [
             "flex-layout.col#header-desktop"
         ],
@@ -8,11 +9,13 @@
         }
     },
     "flex-layout.col#header-desktop": {
+        "title": "Columna Contenido Header Desktop",
         "children": [
             "flex-layout.row#contenido-header-desktop"
         ]
     },
     "flex-layout.row#contenido-header-desktop": {
+        "title": "Ítems Contenedor Header Desktop",
         "children": [
             "logo",
             "search-bar"
