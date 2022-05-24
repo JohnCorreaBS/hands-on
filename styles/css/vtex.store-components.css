@@ -1,0 +1,15 @@
+/* Search */
+
+.searchBarContainer {
+    display: grid;
+    justify-content: center;
+}
+
+:global(.vtex-input-prefix__group){
+    border-radius: 50px;
+    max-width: 500px;
+}
+
+.closeIcon {
+    display: none;
+}

@@ -4,5 +4,16 @@
     },
     "header.full": {
         "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    },
+    "header-layout.desktop": {
+        "children": [
+            "flex-layout.row#header-desktop"
+        ]
+    },  
+    "header-layout.mobile": {
+        "children":  [
+            "flex-layout.row#header-mobile",
+            "search-bar"
+        ]
     }
 }
