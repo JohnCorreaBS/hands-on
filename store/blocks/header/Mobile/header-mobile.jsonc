@@ -1,0 +1,10 @@
+{
+    "flex-layout.row#header-mobile": {
+        "children": [
+            "logo"
+        ],
+        "props": {
+            "blockClass": "containerHeaderMobile"
+        }
+    }
+}

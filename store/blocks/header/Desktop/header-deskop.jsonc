@@ -1,0 +1,20 @@
+{
+    "flex-layout.row#header-desktop": {
+        "children": [
+            "flex-layout.col#header-desktop"
+        ],
+        "props": {
+            "blockClass": "containerHeaderDesktop"
+        }
+    },
+    "flex-layout.col#header-desktop": {
+        "children": [
+            "flex-layout.row#contenido-header-desktop"
+        ]
+    },
+    "flex-layout.row#contenido-header-desktop": {
+        "children": [
+            "logo"
+        ]
+    }
+}
