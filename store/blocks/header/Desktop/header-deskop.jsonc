@@ -18,7 +18,8 @@
         "title": "Ítems Contenedor Header Desktop",
         "children": [
             "logo",
-            "search-bar"
+            "search-bar",
+            "login"
         ]
     }
 }
